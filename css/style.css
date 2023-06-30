@@ -1,0 +1,44 @@
+.carousel-item {
+      height: 50vh;
+    }
+.card {
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.footer-cta {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+}
+.price {
+  color: #263238;
+  font-size: 24px;
+}
+
+.card-title {
+color:#263238
+}
+
+.sale {
+  color: #E53935
+}
+
+.sale-badge {
+  background-color: #E53935
+}
+.dd {
+  /* max-width: 500px; */
+  height: 50px;
+}
+.my-card-img{
+  margin: auto;
+  /* width: max-content; */
+  /* width: 100%; */
+  height: 30vw;
+  object-fit: cover;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1)
+}
