@@ -4,19 +4,18 @@ class CallApi{
     private $image_id;
 
     public function __construct(){
-        $this->scriptURL = "";
+        $this->scriptURL = array(
+            "https://script.google.com/macros/s/AKfycbyJlAqFbaN6AICml6fa0YNAw-4qQt90QaYUSF2Fznsj37KsJzUoBGWfMXzQRBParfhB/exec",
+            "https://script.google.com/macros/s/AKfycbwwEa-B9Ek2sqMrSTBA0ndYTHdJBvtk0txuzkmZvPs7fOv4Ex8nXVY054Xjq2rb1bid/exec",
+            "https://script.google.com/macros/s/AKfycbxrC79oNoq1HYvxYkpsf2HlRB6JwKTfedrxRNVy_HuyWMz301q8ez3MmOByqRwjSEc/exec");
         $this->image_id = array();
     }
 
-    public function call(){
-        $json = file_get_contents('https://script.google.com/macros/s/AKfycbyJlAqFbaN6AICml6fa0YNAw-4qQt90QaYUSF2Fznsj37KsJzUoBGWfMXzQRBParfhB/exec');
+    public function call($id){
+        $json = file_get_contents($this->scriptURL[$id]);
         $obj = json_decode($json);
         $list = $obj->data;
-        for($i=0;$i<count($list); $i++):
-
-            $imgid[$i] = explode('/d/',$list[$i]->img_id);
-            $this->image_id[] = $imgid[0];
-        endfor;
+        return $list;
     }
 
     /**
@@ -37,6 +36,9 @@ class CallApi{
         $this->image_id = $image_id;
 
         return $this;
+    }
+    public static function getImageContent($var){
+        return 'https://drive.google.com/uc?export=view&id='.$var;
     }
 }
 ?>

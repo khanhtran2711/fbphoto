@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,700|Muli:300,300i,400,400i,600,600i,700,700i,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,700|Muli:300,300i,400,400i,600,600i,700,700i,900&display=swap");
+
+html{scroll-behavior:smooth}
+
 /* line 1, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
@@ -3996,9 +3999,9 @@ h3 {
 
 /* line 39, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_video.scss */
 .youtube_video_area .single_video .hover_elements .video a {
-  background: #ED1B1B;
-  width: 58px;
-  height: 58px;
+  /* background: #ED1B1B; */
+  width: 400px;
+  height: 400px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -4012,11 +4015,11 @@ h3 {
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-  opacity: 0;
+  /* opacity: 0; */
 }
-
+/* 
 @media (max-width: 767px) {
-  /* line 39, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_video.scss */
+  line 39, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_video.scss
   .youtube_video_area .single_video .hover_elements .video a {
     opacity: 1;
     margin-bottom: 0;
@@ -4024,12 +4027,12 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 39, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_video.scss */
+  line 39, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_video.scss
   .youtube_video_area .single_video .hover_elements .video a {
     opacity: 1;
     margin-bottom: 0;
   }
-}
+} */
 
 /* line 62, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_video.scss */
 .youtube_video_area .single_video .hover_elements .hover_inner {

@@ -137,12 +137,12 @@
     }
 }
 
-.audioplayer-playing .audioplayer-playpause a::before, .audioplayer-playing .audioplayer-playpause a::after {
-    content: '';
-    width: 4px;
-    height: 14px;
-    background-color: #ED1B1B;
-}
+// .audioplayer-playing .audioplayer-playpause a::before, .audioplayer-playing .audioplayer-playpause a::after {
+//     content: '';
+//     width: 4px;
+//     height: 14px;
+//     background-color: #ED1B1B;
+// }
 .audioplayer-playing .audioplayer-playpause {
     background: 
 rgba(253, 79, 26, 0);
