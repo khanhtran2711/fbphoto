@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style-gallery.css">
   <title><?= $_GET['name'] ?? "" ?></title>
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="img/anya.png">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
