@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'fbphoto'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9DE0ADCF140F4E18931ECC6D2001814A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D70392D716B5456ABD1FD05A5322D802 }}
           package: .
