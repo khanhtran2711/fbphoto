@@ -124,7 +124,7 @@
                         </div>
                         <div class="hover_elements">
                             <div class="video">
-                                <a href="gallery.php?id=1">
+                                <a href="gallery.php?id=1&name=Freen">
                                 </a>
                             </div>
                             <div class="hover_inner">
@@ -142,7 +142,7 @@
                         </div>
                         <div class="hover_elements">
                             <div class="video">
-                                <a href="gallery.php?id=0">
+                                <a href="gallery.php?id=0&name=FreenBeck">
                                 </a>
                             </div>
                             <div class="hover_inner">
@@ -159,7 +159,7 @@
                         </div>
                         <div class="hover_elements">
                             <div class="video">
-                                <a href="gallery.php?id=2">
+                                <a href="gallery.php?id=2&name=Becky">
                                 </a>
                             </div>
                             <div class="hover_inner">
